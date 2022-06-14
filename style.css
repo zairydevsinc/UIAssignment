@@ -205,6 +205,7 @@ html, body {
 }
 
 .footer-block{
+  position: relative;
   width: 32rem;
   height: 24rem;
   margin-top: 17rem;
@@ -294,8 +295,8 @@ hr.new1 {
   position: absolute;
 }
 
-
-@media (max-width:1350px)
+/* First Media Query */
+@media (max-width:1550px) and (min-width:1250px)
 {
     .lava-margin{
       margin-left: 150px;
@@ -303,7 +304,7 @@ hr.new1 {
     .main-text{
       margin-left: 150px;
       width: 40%;
-      font-size: 300%;
+      font-size: 400%;
     }
 
     .inner-text
@@ -312,7 +313,7 @@ hr.new1 {
     margin-left: 150px;
     text-align: left;
     width: 40%;
-    font-size: 100%;
+    font-size: 150%;
     color: black;
   }
 
@@ -353,17 +354,40 @@ hr.new1 {
     margin-left: 200px;
   }
 
+  .footer-block{
+    width: 32rem;
+    height: 24rem;
+    margin-top: 17rem;
+    background-color:#fff;
+    border-radius: .5rem;
+    margin-left: 10rem;
+    z-index: 2;
+  }
+
+  .footer-text{
+    width: 32rem;
+    height: 24rem;
+    margin-top: 17rem;
+    border-radius: .5rem;
+    margin-left: 20rem;
+    z-index: 2;
+  }
+
 
 
 }
 
-  @media (max-width: 1520px)
+  @media (max-width: 1425px)
 {
-    .vertical-card-margin
-    {
-      margin-top: 7rem;
-      margin-left: 2rem;
-    }
+  .footer-block{
+    width: 32rem;
+    height: 24rem;
+    margin-top: 17rem;
+    background-color:#fff;
+    border-radius: .5rem;
+    margin-left: 7rem;
+    z-index: 2;
+  }
 
 
 }
@@ -387,7 +411,15 @@ hr.new1 {
 
 }
 
-@media (max-width: 992px) {
+
+/* second query */
+
+@media (max-width: 1250px) and (min-width: 995px) {
+  .lava-margin{
+    margin-left: 120px;
+  }
+
+
   .vertical-card-margin{
     margin-top: 3rem;
   }
@@ -405,6 +437,13 @@ hr.new1 {
     padding-bottom: 2rem;
   }
 
+  .btn-primary{
+    margin-left: 120px;
+  }
+  .dim-text{
+    margin-left: 1rem;
+  }
+
   .vertical-card-text{
     padding-top: 2rem;
     margin-right: 4rem;
@@ -419,13 +458,195 @@ hr.new1 {
     width: max-content;
   }
 
+  .main-text{
+    margin-left: 120px;
+    width: 40%;
+    font-size: 300%;
+  }
 
+  .inner-text
+  {
+  font-weight: 200;
+  margin-left: 120px;
+  text-align: left;
+  width: 40%;
+  font-size: 120%;
+  color: black;
+}
+.para-card{
+  font-size: 15px;
+}
+
+.secondary-text{
+  margin-left: 230px;
+}
+
+.about-us-margin{
+  padding: 0;
+}
+.col-md-3{
+  padding: 0;
+}
+
+.footer-block{
+  width: 28rem;
+  height: 20rem;
+  margin-top: 17rem;
+  background-color:#fff;
+  border-radius: .5rem;
+  margin-left: 4rem;
+  z-index: 2;
+}
+
+.footer-text{
+  width: 32rem;
+  height: 24rem;
+  margin-top: 17rem;
+  border-radius: .5rem;
+  margin-left: 18rem;
+  z-index: 2;
+}
+.more-about-secondary{
+  font-size: small;
+}
+.more-margin{
+  font-size: 30px;
+}
+.footer-button{
+  padding-right: 10rem;
+
+}
+.footer-email-button{
+  margin-left: 0;
+  padding-right: 10rem;
+
+}
+.email-button{
+  margin-top: 0.5rem;
+  padding-right: 10rem;
+  padding-bottom: 5rem;
+}
+.send-message-button{
+  width: 10rem;
+  font-size: small;
+}
+
+}
+
+@media (max-width: 1115px) {
+  .footer-block{
+    width: 25rem;
+    height: 17rem;
+    margin-top: 17rem;
+    margin-left: 2rem;
+  }
+
+  .footer-text{
+    width: 19rem;
+    height: 21rem;
+    margin-top: 15rem;
+    margin-left: 15rem;
+  }
+
+}
+
+/* Third Query */
+
+@media (max-width: 995px) {
+  .lava-margin{
+    margin-left: 90px;
+  }
+
+  .main-text{
+    margin-left: 90px;
+    width: 40%;
+    font-size: 200%;
+    /* margin-top: 50rem; */
+  }
+
+  .inner-text
+    {
+    font-weight: 200;
+    margin-left: 90px;
+    text-align: left;
+    width: 40%;
+    font-size: 70%;
+  }
+
+  .btn-primary{
+    margin-left: 90px;
+    font-size: small;
+    padding: auto;
+  }
+  .left-image{
+    margin-top: 6rem;
+    margin-left: 9rem;
+    width: 25%;
+    height: 25%;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 2rem;
+  }
+
+  .vertical-card-text{
+    padding-top: 2rem;
+    margin-right: 4rem;
+
+  }
+  .para-card{
+    font-size: 10px;
+  }
+
+  .secondary-text{
+    margin-left: 230px;
+  }
+  .card-title{
+    font-size: medium;
+  }
+  .card-btn{
+    width: 8rem;
+    font-size: small;
+  }
+  .dim-text{
+    font-size: 50px;
+  }
+  .footer-block{
+    width: 20rem;
+    height: 17rem;
+    margin-top: 17rem;
+    margin-left: 2rem;
+  }
+
+  .footer-text{
+    width: 16rem;
+    height: 21rem;
+    margin-top: 15rem;
+    margin-left: 12rem;
+  }
+  .email-button{
+    margin-top: .5rem;
+    padding-right: 7rem;
+    padding-bottom: 3rem;
+  }
+  .send-message-button{
+    width: auto;
+    font-size: small;
+  }
+  .more-about-secondary{
+    font-size: x-small;
+  }
+  .footer-email-button{
+    margin-left: 0;
+  }
+  .more-margin{
+    font-size: 30px;
+  }
 
 }
 
 
 
-@media (max-width:760px)
+@media (max-width:780px)
  {
 
 
