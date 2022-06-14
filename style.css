@@ -295,6 +295,11 @@ hr.new1 {
   position: absolute;
 }
 
+.class-abs{
+  position: absolute;
+  bottom: 0;
+}
+
 /* First Media Query */
 @media (max-width:1550px) and (min-width:1250px)
 {
