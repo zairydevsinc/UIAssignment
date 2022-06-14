@@ -580,6 +580,58 @@ hr.new1 {
   }
 }
 
-@media (max-width:500) {
+@media (max-width:500px) {
+  .main-text{
+    margin-left: 50px;
+    width: 50%;
+    font-size: 200%;
+    margin-top: 30rem;
+  }
 
+  .inner-text
+    {
+    font-weight: 250;
+    margin-left: 50px;
+    text-align: left;
+    width: 50%;
+    font-size: 50%;
+  }
+
+  .btn-primary{
+    margin-left: 50px;
+    font-size:x-small;
+    padding: auto;
+  }
+
+  .col-md-3{
+    left: 0;
+    margin-top: 1rem;
+  }
+
+
+  .footer-block{
+    width: 23rem;
+    height: 25rem;
+    margin-top: 17rem;
+    margin-left: 2rem;
+    z-index: 2;
+
+  }
+
+  .email-button{
+    padding-bottom: 8rem;
+    padding-right: 9rem;
+  }
+
+  .send-message-button{
+    margin-top: .5rem;
+  }
+
+  .footer-bottom{
+    font-size:x-small;
+  }
+
+  .col-12{
+    height: 110%;
+  }
 }
