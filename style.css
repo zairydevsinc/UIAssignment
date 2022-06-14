@@ -1133,3 +1133,10 @@ hr.new1 {
 
 }
 
+@media (max-width: 470px) {
+  .main-text{
+    margin-top: 30rem;
+  }
+
+}
+
