@@ -65,6 +65,9 @@ html, body {
   border: 1px solid #646149;
 }
 
+.remove-pad-ver{
+  margin-right: 0 !important;
+}
 .carousel-caption{
   width: 60%;
   position: absolute;
@@ -147,8 +150,16 @@ html, body {
 
 }
 
+.more-about-secondary{
+  margin-top: 2rem;
+}
+
 .para-card{
   color: #888888;
+}
+
+.para-card2{
+  color: #fff;
 }
 
 .para-card1{
@@ -512,6 +523,7 @@ hr.new1 {
 
   .about-us-margin{
     margin-right: 4rem;
+    position: relative !important;
   }
 
 
@@ -634,4 +646,182 @@ hr.new1 {
   .col-12{
     height: 110%;
   }
+
 }
+
+.col-12{
+  padding: 0%;
+}
+
+@media (max-width:300px)
+{
+  .main-text{
+    margin-left: 20px;
+    width: 60%;
+    font-size: 150%;
+    margin-top: 18rem;
+  }
+
+  .inner-text
+    {
+    font-weight: 250;
+    margin-left: 20px;
+    text-align: left;
+    width: 50%;
+    font-size: 40%;
+  }
+
+  .btn-primary{
+    margin-top: 1rem;
+    margin-left: 20px;
+    font-size:x-small;
+    padding: auto;
+  }
+
+  .col-md-3{
+    left: 0;
+    padding-left: 0%;
+    margin-left: 0%;
+    margin-top: 1rem;
+  }
+
+
+  .footer-block{
+    width: 15rem;
+    height: 15rem;
+    margin-top: 5rem;
+    margin-left: 0%;
+    z-index: 2;
+
+  }
+
+  .email-button{
+    margin-top: 0.5rem;
+    padding-bottom: 3rem;
+    padding-right: 3rem;
+    font-size: x-small;
+  }
+
+  .send-message-button{
+    font-size: xx-small;
+    margin-top: .5rem;
+  }
+  .footer-button{
+    margin-top: 0.5rem;
+    font-size: xx-small;
+    margin-bottom: 0%;
+    padding-right: 7.5rem;
+  }
+
+  .footer-bottom{
+    margin-top: 0%;
+    font-size:x-small;
+  }
+
+  .col-12{
+    height: 110%;
+  }
+
+  .card-img-top{
+    width: 20%;
+    height: 20%;
+    align-self: center;
+    padding-top: 1rem;
+
+  }
+ .card-body img#outside-image{
+    margin-bottom: 1rem;
+    position: absolute;
+    top: -20px;
+    left: -30px;
+    width: 20%;
+  }
+
+  .dim-text{
+    font-size: 400%;
+    margin-left: 3rem;
+  }
+
+  .card-title{
+    font-size: x-small;
+    margin-left: 4rem;
+    margin-top: 1rem;
+  }
+  .para-card{
+    font-size: small;
+  }
+
+  .card-btn{
+    width: auto;
+    height: 50%;
+    font-size: small;
+
+  }
+
+
+  .left-image{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    width: 60%;
+    height: 50%;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 2rem;
+  }
+
+  .left-bg{
+    width: 60%;
+    }
+
+  .vertical-card{
+    width: 70px;
+    margin-left: 15%;
+  }
+
+  .display-4{
+    width: 100%;
+    font-size: 200%;
+    font-weight: 300;
+    }
+
+    .secondary-text{
+      margin-left: 60px;
+      font-size: small;
+    }
+
+    .para-card1{
+      font-size: medium;
+    }
+
+    .para-card2{
+      font-size: x-small;
+    }
+    .footer-image{
+      margin-top: 2rem;
+      height: 90%;
+    }
+
+    .footer-text{
+      width: 100%;
+      height: 24rem;
+      margin-top: 0;
+      text-align: center;
+      border-radius: .5rem;
+      margin-left: 0;
+      z-index: 2;
+    }
+    .more-margin
+    {
+      font-size: 30px;
+    }
+
+    .more-about-secondary{
+      font-size: x-small;
+    }
+
+    .bottom-text{
+      font-size: xx-small;
+    }
+
+}
+
